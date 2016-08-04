@@ -5,23 +5,16 @@ package getapkinfo.example.com.getapkinfo;
  */
 public class JNIUtils {
     /**
-     * getSignature
-     * @param o
-     * @return
-     */
-    public static native String getSignature(Object o);
-
-    /**
      * getPackname
-     * @param o
+     * @param
      * @return
      */
-    public static native String getPackname(Object o);
+    public static native String getPackname();
 
     /**
      * loadLibrary
-
+     */
     static {
         System.loadLibrary("JNI_ANDROID");
-    }*/
+    }
 }

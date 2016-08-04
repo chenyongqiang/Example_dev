@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "24.0.0"
+    buildToolsVersion "23.0.0"
 
     defaultConfig {
         applicationId "getapkinfo.example.com.getapkinfo"
@@ -11,12 +11,12 @@ android {
         versionCode 1
         versionName "1.0"
 
-        /*ndk{
+        ndk{
             moduleName "JNI_ANDROID"
-            abiFilters "armeabi", "armeabi-v7a", "x86" //输出指定三种abi体系结构下的so库，目前可有可无。
+            //abiFilters "armeabi", "armeabi-v7a", "x86" //输出指定三种abi体系结构下的so库，目前可有可无。
         }
-        sourceSets.main{
-            jniLibs.srcDirs = ['libs']
+        /*sourceSets.main{
+            jni.srcDirs = ['libs']
         }*/
     }
     buildTypes {
@@ -30,5 +30,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:appcompat-v7:23.0.0'
 }
