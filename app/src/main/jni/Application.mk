@@ -1,2 +1,0 @@
-APP_MODULES := JNI_ANDROID
-APP_ABI := all

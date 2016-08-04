@@ -20,8 +20,8 @@ public class JNIUtils {
 
     /**
      * loadLibrary
-     */
+
     static {
         System.loadLibrary("JNI_ANDROID");
-    }
+    }*/
 }
