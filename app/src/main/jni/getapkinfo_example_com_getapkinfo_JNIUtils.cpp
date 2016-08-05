@@ -5,8 +5,8 @@
 #include "getapkinfo_example_com_getapkinfo_JNIUtils.h"
 /* Header for class getapkinfo_example_com_getapkinfo_JNIUtils */
 
-JNIEXPORT jstring JNICALL Java_getapkinfo_example_com_getapkinfo_JNIUtils_getPackname(JNIEnv *env, jobject obj)
+JNIEXPORT jstring JNICALL Java_getapkinfo_example_com_getapkinfo_JNIUtils_getPacknameSrc(JNIEnv *env, jobject obj)
 {
     //return (*env)->NewStringUTF(env,"NDK ok");
-    return env->NewStringUTF((char *)"Hello from JNI !");
+    return env->NewStringUTF((char *)"Hello from SRC JNI !");
 }

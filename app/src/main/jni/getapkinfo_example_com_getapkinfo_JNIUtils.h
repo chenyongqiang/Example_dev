@@ -13,7 +13,7 @@ extern "C" {
  * Method:    getPackname
  * Signature: (Ljava/lang/Object;)Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_getapkinfo_example_com_getapkinfo_JNIUtils_getPackname
+JNIEXPORT jstring JNICALL Java_getapkinfo_example_com_getapkinfo_JNIUtils_getPacknameSrc
   (JNIEnv *, jobject);
 
 #ifdef __cplusplus
